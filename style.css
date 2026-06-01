@@ -1,3 +1,11 @@
+:root
+{
+    --cor-fundo: #050816;
+    --cor-card: #111827;
+    --cor-texto: white;
+    --cor-destaque: #38bdf8;
+    --cor-texto-secundario: #cdb5e1;
+}
 *{
     margin: 0;
     padding: 0;
@@ -427,6 +435,42 @@ footer
 {
     max-width: 900px;
     margin: auto;
+    line-height: 2;
+    color: #cbd5e1;
+}
+body
+{
+    background: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+.card,
+.dashboard-card,
+.quiz-box,
+.galeria-card,
+input,
+textarea
+{
+    background: var(--cor-card);
+}
+.logo,
+.mini-title,
+.card h3,
+.dashboard-card h3,
+.galeria-info h3,
+.voltar-topo
+{
+    color: var(--cor-destaque);
+}
+.publico,
+.aplicacao
+{
+    text-align: center;
+}
+.publico p,
+.aplicacao p
+{
+    max-width: 900px;
+    margin: 0 auto 20px;
     line-height: 2;
     color: #cbd5e1;
 }
