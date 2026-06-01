@@ -351,30 +351,36 @@ footer
         flex-direction: column;
         gap: 20px;
     }
-    nav 
+
+    nav
     {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-    .hero h1 
+
+    .hero h1
     {
         font-size: 48px;
     }
+
     .sobre
     {
         flex-direction: column;
     }
-    form 
+
+    form
     {
         width: 100%;
     }
-#resultadoQuiz
+
+    #resultadoQuiz
     {
         margin-top: 25px;
         font-size: 20px;
         font-weight: 600;
     }
+}
 .voltar-topo
 {
     display:block;
@@ -382,10 +388,13 @@ footer
     color:#38bdf8;
     text-decoration:none;
 }
-.slideshow{
+
+.slideshow
+{
     display:flex;
     justify-content:center;
 }
+
 .slideshow img
 {
     width:80%;
@@ -394,11 +403,36 @@ footer
     object-fit:cover;
     border-radius:25px;
 }
-.temas button{
+
+.temas button
+{
     margin:5px;
     padding:8px 12px;
     border:none;
     border-radius:8px;
     cursor:pointer;
 }
+.problema,
+.impacto,
+.futuro,
+.ods,
+.beneficios,
+.objetivos
+{
+    text-align: center;
 }
+.problema p,
+.impacto p,
+.futuro p
+{
+    max-width: 900px;
+    margin: auto;
+    line-height: 2;
+    color: #cbd5e1;
+}
+html
+{
+    scroll-behavior: smooth;
+    scroll-padding-top: 120px;
+}
+
